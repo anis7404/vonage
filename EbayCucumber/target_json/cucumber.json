@@ -1,0 +1,199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "1. welcome Home page",
+        "description": "",
+        "id": "homepage-functionalities;1.-welcome-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5543202186,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.ebay.runner.steps.EbaySteps.i_want_to_go_ebay(EbaySteps.java:34)\r\n\tat ✽.Given i want to go ebay(ebay.feature:4)\r\n",
+              "status": "pending"
+            },
+            "line": 4,
+            "name": "i want to go ebay",
+            "match": {
+              "location": "EbaySteps.i_want_to_go_ebay()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "enter URL \"http://www.ebay.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.ebay.com/",
+                  "offset": 11
+                }
+              ],
+              "location": "EbaySteps.enter_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "ebay HomePage should show",
+            "match": {
+              "location": "EbaySteps.ebay_HomePage_should_show()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "2. Verify Ebay logo",
+        "description": "",
+        "id": "homepage-functionalities;2.-verify-ebay-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3687845487,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.ebay.runner.steps.EbaySteps.as_a_product_owner_i_want_to_see_ebay_logo(EbaySteps.java:51)\r\n\tat ✽.Given As a product owner i want to see ebay logo(ebay.feature:9)\r\n",
+              "status": "pending"
+            },
+            "line": 9,
+            "name": "As a product owner i want to see ebay logo",
+            "match": {
+              "location": "EbaySteps.as_a_product_owner_i_want_to_see_ebay_logo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "i nevagite to ebayhome page \"www.ebay.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.ebay.com",
+                  "offset": 29
+                }
+              ],
+              "location": "EbaySteps.i_nevagite_to_ebayhome_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "ebay logo should display",
+            "match": {
+              "location": "EbaySteps.ebay_logo_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "3. Search functionality",
+        "description": "",
+        "id": "homepage-functionalities;3.-search-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8335855075,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.ebay.runner.steps.EbaySteps.as_a_user_i_want_to_seach_for_tv(EbaySteps.java:69)\r\n\tat ✽.Given As a user i want to seach for tv(ebay.feature:14)\r\n",
+              "status": "pending"
+            },
+            "line": 14,
+            "name": "As a user i want to seach for tv",
+            "match": {
+              "location": "EbaySteps.as_a_user_i_want_to_seach_for_tv()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "i nevagite to ebayhome page \"www.ebay.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.ebay.com",
+                  "offset": 29
+                }
+              ],
+              "location": "EbaySteps.i_nevagite_to_ebayhome_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I Enter \"Tv\" in search text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tv",
+                  "offset": 9
+                }
+              ],
+              "location": "EbaySteps.i_Enter_in_search_text_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click on Search button",
+            "match": {
+              "location": "EbaySteps.click_on_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Text \"results for tv\" Should be display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "results for tv",
+                  "offset": 6
+                }
+              ],
+              "location": "EbaySteps.text_Should_be_display(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "homePage functionalities",
+    "description": "",
+    "id": "homepage-functionalities",
+    "keyword": "Feature",
+    "uri": "ebay.feature"
+  }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="3" time="19.706752">
+<testcase classname="homePage functionalities" name="1. welcome Home page" time="5.499747">
+<skipped><![CDATA[Given i want to go ebay.....................................................pending
+When enter URL "http://www.ebay.com/".......................................skipped
+Then ebay HomePage should show..............................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="homePage functionalities" name="2. Verify Ebay logo" time="6.450389">
+<skipped><![CDATA[Given As a product owner i want to see ebay logo............................pending
+When i nevagite to ebayhome page "www.ebay.com".............................skipped
+Then ebay logo should display...............................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="homePage functionalities" name="3. Search functionality" time="7.756616">
+<skipped><![CDATA[Given As a user i want to seach for tv......................................pending
+When i nevagite to ebayhome page "www.ebay.com".............................skipped
+And I Enter "Tv" in search text box.........................................skipped
+And Click on Search button..................................................skipped
+Then Text "results for tv" Should be display................................skipped
+]]></skipped>
+</testcase>
+</testsuite>
